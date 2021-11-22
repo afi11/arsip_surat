@@ -1,4 +1,5 @@
 @extends('layouts.main')
+@section('title', "Ubah Arsip Surat")
 @section('content')
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -13,7 +14,6 @@
                 <p>Catatan : 
                   <ul class="margin-minus-10"><li>Gunakan file bermormat PDF</li></ul>
                 </p>
-                {{-- <iframe type="application/pdf" src="{{ asset('assets/filesurats/Sertifikat.pdf') }}" width="600" height="400"></iframe> --}}
                 <div class="row align-items-center mt-2 mb-3">
                     <div class="col-md-3">
                         <label>Nomor Surat</label>

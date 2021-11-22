@@ -1,4 +1,5 @@
 @extends('layouts.main')
+@section('title', "Tambah Arsip Surat")
 @section('content')
     <div class="row justify-content-center">
         <div class="col-md-8">
