@@ -9,7 +9,7 @@
       <li>
         <a class="{{ Request::segment(1) == "" ? "active" : ""  }}" href="{{ url('/') }}">
           <span class="icon"><ion-icon name="archive-outline"></ion-icon></span>
-          <span class="title">Arsip {{  Request::segment(1)  }}</span>
+          <span class="title">Arsip</span>
         </a>
       </li>
       <li>
